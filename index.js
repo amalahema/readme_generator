@@ -1,11 +1,10 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkDown = require('./utils/generateMarkdown.js')
+const generateMarkDown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 // of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-inquirer
-.prompt([
+const questions = [
     {
        type: 'input',
        name : 'title',
@@ -58,24 +57,27 @@ inquirer
         name: 'licenses',
         message: 'What license would you like to include?',
         choices: ['MIT', 'GPL', 'CC--0']
-    }
-])
+    },
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fs, data, callback) {
-    fs.writeFile('readme.txt', data, err => {
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
       if (err) {
         console.error(err);
-        callback(err);
       } else {
         console.log('File written successfully');
-        callback(null);
       }
     });
   }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(answers => {
+      const markdown = generateMarkDown(answers);
+      writeToFile('README.md', markdown);
+    });
+  }
 
 // Function call to initialize app
 init();
