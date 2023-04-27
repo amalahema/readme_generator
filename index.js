@@ -2,6 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkDown = require('./utils/generateMarkdown.js');
+const { clear } = require('console');
 // TODO: Create an array of questions for user input
 // of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 const questions = [
@@ -18,29 +19,37 @@ const questions = [
          
      },
      {
-        type: 'input',
-        name : 'table',
-        message :"Enter the table of contents"
-         
-     },
+      type: 'editor',
+      name: 'tableofcontents',
+      message: 'Please enter the table of contents for your README:',
+      validate: function(text) {
+        if (!text || text.trim().length === 0) {
+          return 'Table of contents cannot be empty.';
+        }
+        return true;
+      }
+    },
+      
      {
         type: 'input',
         name : 'installation',
-        message :"Enter the installation information"
+        message :"Enter the information of installation"
          
      },
+
      {
         type: 'input',
         name : 'usage',
-        message :"Enter the instruction of usage"
+        message :"Enter the instructions for usage"
          
      },
      {
         type: 'input',
         name : 'contribution',
-        message :"Do anyone have contribution in the project"
+        message :"How can others contribute to this project"
          
-     }, {
+     }, 
+     {
         type: 'input',
         name : 'tests',
         message :"Enter the test applied in the project"
@@ -73,7 +82,8 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(answers => {
+    inquirer.prompt(questions)
+    .then(answers => {
       const markdown = generateMarkDown(answers);
       writeToFile('README.md', markdown);
     });
