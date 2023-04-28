@@ -1,6 +1,6 @@
-# dfsdfsd
+# fgdtrt
 
-  ![GPL License](https://img.shields.io/badge/license-GPL-blue)(https://opensource.org/licenses-old/gpl-license-html/)
+  ![MIT License](https://img.shields.io/badge/license-MIT-blue)
     
 
   
@@ -15,26 +15,26 @@
 
   
   ## Description
-  erere
+  eteettr
 
   ## Installation
-  erwdsdas
+  rtrtre
 
   ## Usage
-  sasdssd
+  rtretret
 
   ## Licenses
   
-    This project is covered under the GPL license. To learn more about what this means, click the license button at the top.
+    This project is covered under the MIT license. To learn more about what this means, click the link https://choosealicense.com/licenses/mit/ .
 
   ## Contributing
-  sadsad
+  tretreter
 
   ## Tests
-  dsdas
+  rtretreter
   
   ## Questions
   Any questions ? Reach out !
-  GitHub: https://github.com/SASAD  
-  Email: SDASDAS
+  GitHub: https://github.com/ertretre  
+  Email: fdfds
 
