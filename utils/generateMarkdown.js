@@ -13,7 +13,9 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+    //return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+    return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+    `;
   }
 }
 /*function renderLicenseBadge(license) {
