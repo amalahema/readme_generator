@@ -1,4 +1,4 @@
-# Readme Generator
+# Readme generator
 
   [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
     
@@ -18,7 +18,7 @@
   This project allows other developers to understand the overall idea of the project such as what is the project title, usage and what programming languages we need to install and the procedure for installation
 
   ## Installation
-  Need to install VS code, node.js, and Gitbash on your computer
+  Need to install vs code, node.js, and Gitbash on your computer
 
   ## Usage
   After node packages are installed, enter your project's information and run the project using node index.js
@@ -37,5 +37,5 @@
   ## Questions
   Any questions ? Reach out !
   GitHub: https://github.com/amalahema  
-  Email: amalahema
+  Email: amalahema@gmail.com
 
