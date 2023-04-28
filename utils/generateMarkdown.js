@@ -1,8 +1,25 @@
-// Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 
+
+// Create a function that returns the license badge based on which license is passed in
+/*const addLicenseBadge = license => {
+  if (license) {
+      return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+`;
+  } else {
+      return '';
+  }
+};*/
 function renderLicenseBadge(license) {
-  let licenseBadge;
+  if (!license) {
+    return ``;
+  } else {
+    //return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+    return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+    `;
+  }
+}
+/*function renderLicenseBadge(license) {
+  let licenseBadge = getBadge(license);//license string what u passed 
   const licenseUrl = 'https://img.shields.io/badge/license-';
 
   switch (license) {
@@ -13,7 +30,7 @@ function renderLicenseBadge(license) {
       licenseBadge = `![${license} License](${licenseUrl}GPL-blue)(${renderLicenseLink(license)})`;
       break;
       case 'CC--0':
-      licenseBadge = `![${license} License](${licenseUrl}CC--0-blue)(${renderLicenseLink(license)})`;
+      licenseBadge = `![${license} License](${licenseUrl}CC--0-blue)${renderLicenseLink(license)}`;
       break;
       default:
       licenseBadge = `![License](${licenseUrl}unknown-blue)`;
@@ -21,10 +38,9 @@ function renderLicenseBadge(license) {
   }
 
   return licenseBadge;
-}
+}*/
 
 //  Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license === 'MIT'){
     return 'https://choosealicense.com/licenses/mit/' 
@@ -38,7 +54,6 @@ function renderLicenseLink(license) {
 }
 
 // Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (!license) {
     return ``;

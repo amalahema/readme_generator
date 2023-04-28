@@ -1,6 +1,7 @@
-# FGDFGFG
+# sfdfdf
 
-  ![CC--0 License](https://img.shields.io/badge/license-CC--0-blue)(https://creativecommons.org/choose/results-one?license_code=by-nd)
+  ![GPL License](https://img.shields.io/badge/license-GPL-blue)
+    
 
   
   ## Table of Contents
@@ -14,26 +15,26 @@
 
   
   ## Description
-  FGDGFDG
+  dfdfdsfs
 
   ## Installation
-  DFGFDGFDG
+  dfsdrr
 
   ## Usage
-  FGDFGFD
+  dssdsfd
 
   ## Licenses
   
-    This project is covered under the CC--0 license. To learn more about what this means, click the license button at the top.
+    This project is covered under the GPL license. To learn more about what this means, click the license button at the top.
 
   ## Contributing
-  FDGDGDD
+  fererw
 
   ## Tests
-  FTRTRT
+  dfdfsdf
   
   ## Questions
   Any questions ? Reach out !
-  GitHub: https://github.com/TRET  
-  Email: RTDG
+  GitHub: https://github.com/dfsfsdf  
+  Email: dsfdsfsdf
 
