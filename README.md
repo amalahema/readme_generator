@@ -1,6 +1,6 @@
-# dsdgfdgf
+# fgdf
 
-  ![GPL License](https://img.shields.io/badge/license-GPL-blue)
+  ![MIT License](https://img.shields.io/badge/license-MIT-blue)
     
 
   
@@ -15,27 +15,27 @@
 
   
   ## Description
-  tretert
+  rtrte
 
   ## Installation
   rtretre
 
   ## Usage
-  dfdfdsf
+  fdgfdgd
 
   ## Licenses
   
-    This project is covered under the GPL license. To learn more about what this means, click the link <a href="https://opensource.org/licenses-old/gpl-license-html/">https://opensource.org/licenses-old/gpl-license-html/</a>.
+    This project is covered under the MIT license. To learn more about what this means, [click here](https://choosealicense.com/licenses/mit/) to visit the license information page.
 } .
 
   ## Contributing
-  sdsdsadas
+  fgdgdfg
 
   ## Tests
-  ewqeqwe
+  dgfdgdf
   
   ## Questions
   Any questions ? Reach out !
-  GitHub: https://github.com/fdfdsfds  
-  Email: ererwe
+  GitHub: https://github.com/dgdfgd  
+  Email: trtrter
 
