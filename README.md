@@ -1,6 +1,6 @@
-# dsdfdsf
+# Readme Generator
 
-  [![GPL License](https://img.shields.io/badge/license-GPL-blue)](https://opensource.org/licenses-old/gpl-license-html/)
+  [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
     
 
   
@@ -15,27 +15,27 @@
 
   
   ## Description
-  dsfsdfsdf
+  This project allows other developers to understand the overall idea of the project such as what is the project title, usage and what programming languages we need to install and the procedure for installation
 
   ## Installation
-  dfdsfsf
+  Need to install VS code, node.js, and Gitbash on your computer
 
   ## Usage
-  dfdsfdsfsd
+  After node packages are installed, enter your project's information and run the project using node index.js
 
   ## Licenses
   
-    This project is covered under the GPL license. To learn more , click the license button at the top.
+    This project is covered under the MIT license. To learn more , click the license button at the top.
 
 
   ## Contributing
-  dfsddgg
+  Welcome contributors if they wish to enhance the feature of this project and can connect with the project owner for the access request
 
   ## Tests
-  dgfgfg
+  Write a test application and get an idea of how to handle errors
   
   ## Questions
   Any questions ? Reach out !
-  GitHub: https://github.com/dgfgfg  
-  Email: gfgfgfg
+  GitHub: https://github.com/amalahema  
+  Email: amalahema
 
