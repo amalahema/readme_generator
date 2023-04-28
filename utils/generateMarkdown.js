@@ -6,7 +6,9 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+    const licenseLink = renderLicenseLink(license);
+    
+    return `[![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)](${licenseLink})
     `;
   }
 }
@@ -51,8 +53,8 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `
-    This project is covered under the ${license} license. To learn more about what this means, [click here](${renderLicenseLink(license)}) to visit the license information page.
-} .`
+    This project is covered under the ${license} license. To learn more , click the license button at the top.
+`
   }
 }
 
