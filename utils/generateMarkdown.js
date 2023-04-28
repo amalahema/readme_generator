@@ -6,33 +6,13 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    const licenseLink = renderLicenseLink(license);
-    
+    const licenseLink = renderLicenseLink(license);//get the url link of the license
     return `[![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)](${licenseLink})
     `;
   }
+  //[Click here](https://www.xxx.com)so when we click the badge it navigate to the license url
 }
-/*function renderLicenseBadge(license) {
-  let licenseBadge = getBadge(license);//license string what u passed 
-  const licenseUrl = 'https://img.shields.io/badge/license-';
 
-  switch (license) {
-    case 'MIT':
-      licenseBadge = `![${license} License](${licenseUrl}MIT-blue)(${renderLicenseLink(license)})`;
-      break;
-      case 'GPL':
-      licenseBadge = `![${license} License](${licenseUrl}GPL-blue)(${renderLicenseLink(license)})`;
-      break;
-      case 'CC--0':
-      licenseBadge = `![${license} License](${licenseUrl}CC--0-blue)${renderLicenseLink(license)}`;
-      break;
-      default:
-      licenseBadge = `![License](${licenseUrl}unknown-blue)`;
-      break;
-  }
-
-  return licenseBadge;
-}*/
 
 //  Create a function that returns the license link
 function renderLicenseLink(license) {
@@ -102,3 +82,27 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+/*switch case error - license badges file not found after install
+function renderLicenseBadge(license) {
+  let licenseBadge = getBadge(license);//license string what u passed 
+  const licenseUrl = 'https://img.shields.io/badge/license-';
+
+  switch (license) {
+    case 'MIT':
+      licenseBadge = `![${license} License](${licenseUrl}MIT-blue)(${renderLicenseLink(license)})`;
+      break;
+      case 'GPL':
+      licenseBadge = `![${license} License](${licenseUrl}GPL-blue)(${renderLicenseLink(license)})`;
+      break;
+      case 'CC--0':
+      licenseBadge = `![${license} License](${licenseUrl}CC--0-blue)${renderLicenseLink(license)}`;
+      break;
+      default:
+      licenseBadge = `![License](${licenseUrl}unknown-blue)`;
+      break;
+  }
+
+  return licenseBadge;
+}*/

@@ -1,6 +1,6 @@
-# sdsd
+# dsdfdsf
 
-  [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
+  [![GPL License](https://img.shields.io/badge/license-GPL-blue)](https://opensource.org/licenses-old/gpl-license-html/)
     
 
   
@@ -15,27 +15,27 @@
 
   
   ## Description
-  sfdfds
+  dsfsdfsdf
 
   ## Installation
-  dfsdffs
+  dfdsfsf
 
   ## Usage
-  fdsfsdfs
+  dfdsfdsfsd
 
   ## Licenses
   
-    This project is covered under the MIT license. To learn more , click the license button at the top.
-} .
+    This project is covered under the GPL license. To learn more , click the license button at the top.
+
 
   ## Contributing
-  fsfs
+  dfsddgg
 
   ## Tests
-  fsfsfs
+  dgfgfg
   
   ## Questions
   Any questions ? Reach out !
-  GitHub: https://github.com/rewrewrw  
-  Email: fdsfsffs
+  GitHub: https://github.com/dgfgfg  
+  Email: gfgfgfg
 
