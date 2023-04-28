@@ -51,7 +51,8 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `
-    This project is covered under the ${license} license. To learn more about what this means, click the link ${renderLicenseLink(license)} .`
+    This project is covered under the ${license} license. To learn more about what this means, click the link <a href="${renderLicenseLink(license)}">${renderLicenseLink(license)}</a>.
+} .`
   }
 }
 
