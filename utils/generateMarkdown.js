@@ -1,20 +1,12 @@
 
 
 // Create a function that returns the license badge based on which license is passed in
-/*const addLicenseBadge = license => {
-  if (license) {
-      return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
-`;
-  } else {
-      return '';
-  }
-};*/
+
 function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    //return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
-    return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+    return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)(${renderLicenseLink(license)})
     `;
   }
 }
