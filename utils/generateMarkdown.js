@@ -1,16 +1,29 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
-if(!license)
-{
-  return ``;
+  let licenseBadge;
+  const licenseUrl = 'https://img.shields.io/badge/license-';
+
+  switch (license) {
+    case 'MIT':
+      licenseBadge = `![${license} License](${licenseUrl}MIT-blue)(${renderLicenseLink(license)})`;
+      break;
+      case 'GPL':
+      licenseBadge = `![${license} License](${licenseUrl}GPL-blue)(${renderLicenseLink(license)})`;
+      break;
+      case 'CC--0':
+      licenseBadge = `![${license} License](${licenseUrl}CC--0-blue)(${renderLicenseLink(license)})`;
+      break;
+      default:
+      licenseBadge = `![License](${licenseUrl}unknown-blue)`;
+      break;
+  }
+
+  return licenseBadge;
 }
-else
-{
-    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
-}
-}
-// TODO: Create a function that returns the license link
+
+//  Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license === 'MIT'){
@@ -24,25 +37,24 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (!license) {
     return ``;
   } else {
-    return `## Licenses
+    return `
     This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//  Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
   ${renderLicenseBadge(data.licenses)}
 
-  ## Table of Contents
-  ${data.tableofcontents}\n
+  
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -51,7 +63,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Credits](#credits)
+
   
   ## Description
   ${data.description}
@@ -72,7 +84,7 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions
-  Have questions about this project?  
+  Any questions ? Reach out !
   GitHub: https://github.com/${data.github}  
   Email: ${data.email}
 

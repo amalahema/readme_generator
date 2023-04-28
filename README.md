@@ -1,16 +1,8 @@
-# dfdsgfgfdg
+# FGDFGFG
 
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+  ![CC--0 License](https://img.shields.io/badge/license-CC--0-blue)(https://creativecommons.org/choose/results-one?license_code=by-nd)
 
-  ## Table of Contents
-  fgdgfg
-fdgdfgdfg
-trety5rey6rt5y
-frgtdfgfdg
-dgsdgdgdsfg
-sfgdsgsdgsd
-
-
+  
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -19,29 +11,29 @@ sfgdsgsdgsd
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Credits](#credits)
+
   
   ## Description
-  gfgfdgdfgfdgd
+  FGDGFDG
 
   ## Installation
-  fdgdfgdg
+  DFGFDGFDG
 
   ## Usage
-  dsadasdad
+  FGDFGFD
 
   ## Licenses
-  ## Licenses
-    This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
+  
+    This project is covered under the CC--0 license. To learn more about what this means, click the license button at the top.
 
   ## Contributing
-  undefined
+  FDGDGDD
 
   ## Tests
-  dsdsdfdsfdsf
+  FTRTRT
   
   ## Questions
-  Have questions about this project?  
-  GitHub: https://github.com/undefined  
-  Email: undefined
+  Any questions ? Reach out !
+  GitHub: https://github.com/TRET  
+  Email: RTDG
 
