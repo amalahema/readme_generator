@@ -1,6 +1,6 @@
-# FGDFGFG
+# dfgfdg
 
-  ![CC--0 License](https://img.shields.io/badge/license-CC--0-blue)(https://creativecommons.org/choose/results-one?license_code=by-nd)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
   
   ## Table of Contents
@@ -14,26 +14,26 @@
 
   
   ## Description
-  FGDGFDG
+  rerere
 
   ## Installation
-  DFGFDGFDG
+  dfdfsdf
 
   ## Usage
-  FGDFGFD
+  xcxcxz
 
   ## Licenses
   
-    This project is covered under the CC--0 license. To learn more about what this means, click the license button at the top.
+    This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
 
   ## Contributing
-  FDGDGDD
+  dfdfd
 
   ## Tests
-  FTRTRT
+  trtrtret
   
   ## Questions
   Any questions ? Reach out !
-  GitHub: https://github.com/TRET  
-  Email: RTDG
+  GitHub: https://github.com/gfgfdg  
+  Email: dgffdgfg
 
