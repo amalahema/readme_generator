@@ -1,19 +1,11 @@
 
 
 // Create a function that returns the license badge based on which license is passed in
-/*const addLicenseBadge = license => {
-  if (license) {
-      return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
-`;
-  } else {
-      return '';
-  }
-};*/
+
 function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    //return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
     return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
     `;
   }
@@ -59,7 +51,7 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `
-    This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`
+    This project is covered under the ${license} license. To learn more about what this means, click the link ${renderLicenseLink(license)} .`
   }
 }
 
